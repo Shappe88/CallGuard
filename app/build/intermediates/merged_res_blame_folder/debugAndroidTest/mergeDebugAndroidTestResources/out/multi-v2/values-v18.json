@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.org.callguard.test.app-mergeDebugAndroidTestResources-2:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/samkaransingh/.gradle/caches/8.13/transforms/0dd27bdc9687a8c5cf1a02128c4671f6/transformed/core-1.6.1/res/values-v18/values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,475",
+                        "endLines": "9,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "470,888"
+                    }
+                }
+            ]
+        }
+    ]
+}

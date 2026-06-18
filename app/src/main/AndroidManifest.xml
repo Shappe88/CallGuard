@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Core telecom/role permissions -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+    <!-- Optional: contact label lookup only (no upload). Comment out if org disallows. -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- Networking for OTA blocklist sync -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Reschedule sync after reboot -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Background work reliability -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!-- Required on Android 13+ (API 33) to show blocked-call warning notifications -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Required to screen calls from numbers saved in the user's contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".CallGuardApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CallGuard"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="34">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CallGuard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.admin.AdminLoginActivity"
+            android:exported="false"
+            android:label="Admin Login"
+            android:theme="@style/Theme.CallGuard" />
+
+        <activity
+            android:name=".ui.admin.AdminDashboardActivity"
+            android:exported="false"
+            android:label="Admin Dashboard"
+            android:theme="@style/Theme.CallGuard" />
+
+        <!-- Incoming call screening -->
+        <service
+            android:name=".screening.CallGuardScreeningService"
+            android:exported="true"
+            android:permission="android.permission.BIND_SCREENING_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.CallScreeningService" />
+            </intent-filter>
+        </service>
+
+        <!-- Outgoing call redirection -->
+        <service
+            android:name=".redirection.CallGuardRedirectionService"
+            android:exported="true"
+            android:permission="android.permission.BIND_CALL_REDIRECTION_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.CallRedirectionService" />
+            </intent-filter>
+        </service>
+
+        <!-- Reboot receiver: reschedule periodic sync -->
+        <receiver
+            android:name=".sync.BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

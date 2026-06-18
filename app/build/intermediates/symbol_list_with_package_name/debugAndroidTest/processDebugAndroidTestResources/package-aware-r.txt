@@ -1,0 +1,3 @@
+com.org.callguard.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

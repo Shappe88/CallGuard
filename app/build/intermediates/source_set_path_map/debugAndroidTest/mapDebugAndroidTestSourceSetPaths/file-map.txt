@@ -1,0 +1,6 @@
+com.org.callguard.test.app-core-1.6.1-0 /Users/samkaransingh/.gradle/caches/8.13/transforms/0dd27bdc9687a8c5cf1a02128c4671f6/transformed/core-1.6.1/res
+com.org.callguard.test.app-androidTest-1 /Users/samkaransingh/Desktop/sunny/CallGuard/app/build/generated/res/resValues/androidTest/debug
+com.org.callguard.test.app-updated_navigation_xml-2 /Users/samkaransingh/Desktop/sunny/CallGuard/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.org.callguard.test.app-mergeDebugAndroidTestResources-3 /Users/samkaransingh/Desktop/sunny/CallGuard/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.org.callguard.test.app-mergeDebugAndroidTestResources-4 /Users/samkaransingh/Desktop/sunny/CallGuard/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.org.callguard.test.app-debugAndroidTest-5 /Users/samkaransingh/Desktop/sunny/CallGuard/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

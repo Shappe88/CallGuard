@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallGuard</string>
+    <string name="status_protected">Protection Active</string>
+    <string name="status_action_needed">Action Needed</string>
+    <string name="role_status_label">Call Screening Role</string>
+    <string name="role_granted">Granted</string>
+    <string name="role_not_granted">Not Granted — Tap to Enable</string>
+    <string name="last_update_label">Last Blocklist Update</string>
+    <string name="blocklist_version_label">Blocklist Version</string>
+    <string name="contact_it_button">Contact IT / SOC</string>
+    <string name="sync_now_button">Sync Now</string>
+    <string name="never">Never</string>
+    <string name="sync_in_progress">Syncing…</string>
+    <string name="sync_success">Sync successful</string>
+    <string name="sync_failed">Sync failed — using last known good list</string>
+</resources>

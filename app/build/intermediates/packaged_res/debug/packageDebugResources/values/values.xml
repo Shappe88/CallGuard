@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#2E8B57</color>
+    <color name="background">#F5F6F8</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="primary">#1A3C6E</color>
+    <color name="primary_dark">#0F2A4D</color>
+    <color name="text_primary">#1C1C1C</color>
+    <color name="text_secondary">#666666</color>
+    <color name="warning">#C0392B</color>
+    <string name="app_name">CallGuard</string>
+    <string name="blocklist_version_label">Blocklist Version</string>
+    <string name="contact_it_button">Contact IT / SOC</string>
+    <string name="last_update_label">Last Blocklist Update</string>
+    <string name="never">Never</string>
+    <string name="role_granted">Granted</string>
+    <string name="role_not_granted">Not Granted — Tap to Enable</string>
+    <string name="role_status_label">Call Screening Role</string>
+    <string name="status_action_needed">Action Needed</string>
+    <string name="status_protected">Protection Active</string>
+    <string name="sync_failed">Sync failed — using last known good list</string>
+    <string name="sync_in_progress">Syncing…</string>
+    <string name="sync_now_button">Sync Now</string>
+    <string name="sync_success">Sync successful</string>
+    <style name="Theme.CallGuard" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

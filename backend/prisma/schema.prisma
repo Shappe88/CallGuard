@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model GlobalState {
+  id             Int      @id @default(1)
+  currentVersion Int      @default(2)
+  updatedAt      DateTime @updatedAt
+}
+
+model Admin {
+  id        Int      @id @default(autoincrement())
+  username  String   @unique
+  password  String
+  createdAt DateTime @default(now())
+}
+
+model NumberEntry {
+  id               Int      @id @default(autoincrement())
+  normalizedNumber String   @unique
+  displayLabel     String?
+  type             String   // "BLOCKED" or "ALLOWLISTED"
+  reasonCode       String?  // e.g. "FRAUD"
+  severity         String?  // e.g. "HIGH"
+  category         String?  // e.g. "EMERGENCY", "SOC"
+  source           String   @default("BACKEND")
+  active           Boolean  @default(true)
+  addedAtVersion   Int
+  removedAtVersion Int?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model Policy {
+  key   String @id
+  value String
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-debug-44:/drawable_ic_shield.xml.flat",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-debug-44:/layout_dialog_add_contact.xml.flat",
+        "source": "com.org.callguard.app-main-46:/layout/dialog_add_contact.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-debug-44:/layout_activity_main.xml.flat",
+        "source": "com.org.callguard.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-debug-44:/layout_activity_admin_dashboard.xml.flat",
+        "source": "com.org.callguard.app-main-46:/layout/activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-debug-44:/drawable_bg_card.xml.flat",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-debug-44:/drawable_bg_button_filled.xml.flat",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/drawable/bg_button_filled.xml"
+    },
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-debug-44:/layout_activity_main.xml.flat",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-debug-44:/drawable_bg_button_outlined.xml.flat",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/drawable/bg_button_outlined.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-debug-44:/layout_activity_admin_login.xml.flat",
+        "source": "com.org.callguard.app-main-46:/layout/activity_admin_login.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-debug-44:/layout_item_contact.xml.flat",
+        "source": "com.org.callguard.app-main-46:/layout/item_contact.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.org.callguard.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.org.callguard.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-mergeDebugResources-43:/layout/item_contact.xml",
+        "source": "com.org.callguard.app-main-46:/layout/item_contact.xml"
+    },
+    {
+        "merged": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "/home/tejasbargujepatil/.gradle/daemon/8.13/com.org.callguard.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-mergeDebugResources-43:/layout/activity_admin_dashboard.xml",
+        "source": "com.org.callguard.app-main-46:/layout/activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-mergeDebugResources-43:/layout/activity_admin_login.xml",
+        "source": "com.org.callguard.app-main-46:/layout/activity_admin_login.xml"
+    },
+    {
+        "merged": "com.org.callguard.app-mergeDebugResources-43:/layout/dialog_add_contact.xml",
+        "source": "com.org.callguard.app-main-46:/layout/dialog_add_contact.xml"
+    }
+]

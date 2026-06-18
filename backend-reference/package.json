@@ -1,0 +1,14 @@
+{
+  "name": "callguard-backend-reference",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal reference implementation of the CallGuard OTA blocklist API for testing sync end-to-end. NOT production-ready: no auth, no DB, in-memory data, sample signing only.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "genkeys": "node generate_keys.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

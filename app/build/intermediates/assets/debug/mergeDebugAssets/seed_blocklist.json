@@ -1,0 +1,1530 @@
+{
+  "blocked_numbers": [
+    {
+      "normalized_number": "+601133881644",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916230031106",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917060983748",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917696213983",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919679427913",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917300976659",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919650785347",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+447424457762",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923425671082",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917764892291",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919310776687",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919457271003",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919658256856",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917087633574",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918016367035",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917429522959",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917501826921",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919838490517",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917064831586",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918721845746",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919718136062",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919501227692",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919054657870",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919805976449",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918530926665",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919675080429",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916002148646",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916033941806",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916230261691",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916239619102",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916260166087",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916306963696",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916370814983",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916394595211",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917011487254",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917018410188",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917027055608",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917051573217",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917064893152",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917064983156",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917083460766",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917087961180",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917207368587",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917300848931",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917382286136",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917417808353",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917428208378",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917429732601",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917456037613",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917707835004",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917728019223",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917728938851",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917834881698",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917837292051",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917838082242",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917838238424",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917838603387",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917838970190",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917889364353",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917895215161",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917896890168",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917898785188",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917883125897",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917990963364",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918001766564",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918004046250",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918054941723",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918057307143",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918076493713",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918130783689",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918146297427",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918146766962",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918146919397",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918188941565",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918210943640",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918233914245",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918235098272",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918239078388",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918264663584",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918273466380",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918347853823",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918376017858",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918378814594",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918383862077",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918437036227",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918486517140",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918486521232",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918486974764",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918488024721",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918505899854",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918506964267",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918529700340",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918580495059",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918595875981",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918697831330",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918727016773",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918730864503",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918736881029",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918745017912",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918748840086",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918756343628",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918758343628",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918765471017",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918770508826",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918770646024",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918777207259",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918790945164",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918802116531",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918810508977",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918827356586",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918839248630",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918872966134",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918879561220",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918929270012",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918929302948",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918929791192",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918937849965",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919004065089",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919004066392",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919004086392",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919051507756",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919055723568",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919070948813",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919076803713",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919136869028",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919148543203",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919171326346",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919311289559",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919319373002",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919352401632",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919362119784",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919365144110",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919408660627",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919412008231",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919432288641",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919453372328",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919457727864",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919467619799",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919509733032",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919512172941",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919536153091",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919537035287",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919548153241",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919555198676",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919582783475",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919594632213",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919596033994",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919627719931",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919651051213",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919651501798",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919685063890",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919687572812",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919704121033",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919712134880",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919718541051",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919720169029",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919814947520",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919815975829",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919818454186",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919821107368",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919821651870",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919821658170",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919836069346",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919876739567",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919890436700",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919893257489",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919906606842",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919906628220",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919926032537",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919975042473",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919987178966",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+447401449914",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+447404449914",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+447438554727",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+447459129846",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+447587764913",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+447958759439",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923027931629",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923029026250",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923035251672",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923066810708",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923073574622",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923077303680",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923077930832",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923171400642",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923175547966",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923200190456",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923212626112",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923239743069",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923262385135",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923264368962",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923345418818",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923379843850",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923416718919",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923434356972",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923456130208",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923464546278",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923464580128",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923474690490",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923481409175",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923491132273",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+923495449757",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+928375261916",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918103171040",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919892028528",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919430226719",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919797440547",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918253939472",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918628030966",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916390456000",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916006897568",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919179864871",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919630635881",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+916005393942",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+919309543553",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+918440229767",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917434816585",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    },
+    {
+      "normalized_number": "+917780976257",
+      "display_label": "Blocked number",
+      "reason_code": "FRAUD",
+      "severity": "HIGH",
+      "source": "SEED"
+    }
+  ]
+}

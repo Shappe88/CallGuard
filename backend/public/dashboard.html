@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CallGuard Admin Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <h2>CallGuard Dashboard</h2>
+      </div>
+      <button class="logout-btn" id="logout-btn">Logout</button>
+    </nav>
+
+    <div class="dashboard-header">
+      <div class="stats-card">
+        <h3>Total Active Rules</h3>
+        <div class="stat-value" id="total-rules">0</div>
+      </div>
+      
+      <button class="add-btn" id="open-add-modal">+ Add New Number</button>
+    </div>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Type</th>
+            <th>Label</th>
+            <th>Severity / Category</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="numbers-table-body">
+          <!-- Rows injected by JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Add/Edit Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modal-title">Add New Contact</h2>
+        <button class="close-modal" id="close-modal">&times;</button>
+      </div>
+      
+      <form id="contact-form">
+        <input type="hidden" id="entry-id">
+        
+        <div class="form-group">
+          <label for="normalizedNumber">Phone Number (E.164 format, e.g. +919999999999)</label>
+          <input type="text" id="normalizedNumber" class="form-input" required placeholder="+1234567890">
+        </div>
+
+        <div class="form-group">
+          <label for="displayLabel">Display Label</label>
+          <input type="text" id="displayLabel" class="form-input" placeholder="e.g. IT Helpdesk, Scam Caller">
+        </div>
+
+        <div class="form-group">
+          <label for="type">Type</label>
+          <select id="type" class="form-input" required>
+            <option value="BLOCKED">Blocked</option>
+            <option value="ALLOWLISTED">Allowlisted</option>
+          </select>
+        </div>
+
+        <!-- Conditional fields for BLOCKED -->
+        <div id="blocked-fields" class="conditional-fields active">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reasonCode">Reason</label>
+              <select id="reasonCode" class="form-input">
+                <option value="FRAUD">Fraud</option>
+                <option value="SPAM">Spam</option>
+                <option value="HARASSMENT">Harassment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="severity">Severity</label>
+              <select id="severity" class="form-input">
+                <option value="HIGH">High</option>
+                <option value="MEDIUM">Medium</option>
+                <option value="LOW">Low</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conditional fields for ALLOWLISTED -->
+        <div id="allowlisted-fields" class="conditional-fields">
+          <div class="form-group">
+            <label for="category">Category</label>
+            <select id="category" class="form-input">
+              <option value="SOC">SOC / IT</option>
+              <option value="EMERGENCY">Emergency</option>
+              <option value="VIP">Executive / VIP</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="modal-error-msg" class="error-message"></div>
+
+        <button type="submit" class="btn btn-primary" style="margin-top: 1rem;">Save Contact</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
