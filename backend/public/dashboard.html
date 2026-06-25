@@ -21,8 +21,10 @@
         <h3>Total Active Rules</h3>
         <div class="stat-value" id="total-rules">0</div>
       </div>
-      
-      <button class="add-btn" id="open-add-modal">+ Add New Number</button>
+      <div class="header-actions">
+        <button class="add-btn" id="open-add-modal">+ Add New Number</button>
+        <button class="add-btn" id="open-upload-modal" style="background: var(--text-light); margin-left: 10px;">Upload Blacklist</button>
+      </div>
     </div>
 
     <div class="table-container">
@@ -109,6 +111,38 @@
         <div id="modal-error-msg" class="error-message"></div>
 
         <button type="submit" class="btn btn-primary" style="margin-top: 1rem;">Save Contact</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Upload Modal -->
+  <div class="modal-overlay" id="upload-modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Bulk Upload Blacklist</h2>
+        <button class="close-modal" id="close-upload-modal">&times;</button>
+      </div>
+      
+      <form id="upload-form">
+        <div class="form-group">
+          <label for="bulkFile">Select CSV or Excel File</label>
+          <input type="file" id="bulkFile" class="form-input" accept=".csv, .xlsx" required>
+          <small style="display: block; margin-top: 8px; color: var(--text-light);">
+            File must contain a column named "number" or "Phone". Optional columns: displayLabel, reasonCode, severity.
+          </small>
+        </div>
+
+        <div id="upload-progress" class="upload-progress" style="display: none; margin-top: 15px; text-align: center;">
+          <p>Uploading and processing...</p>
+        </div>
+
+        <div id="upload-result" style="display: none; margin-top: 15px; padding: 10px; border-radius: 6px; background: #f0fdf4; color: #166534;">
+          <!-- Results injected here -->
+        </div>
+
+        <div id="upload-error-msg" class="error-message"></div>
+
+        <button type="submit" class="btn btn-primary" id="upload-btn" style="margin-top: 1rem;">Upload File</button>
       </form>
     </div>
   </div>

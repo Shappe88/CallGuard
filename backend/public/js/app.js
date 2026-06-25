@@ -90,6 +90,15 @@ if (document.getElementById('numbers-table-body')) {
   const modalErrorMsg = document.getElementById('modal-error-msg');
   const modalTitle = document.getElementById('modal-title');
 
+  const uploadModalOverlay = document.getElementById('upload-modal-overlay');
+  const openUploadModalBtn = document.getElementById('open-upload-modal');
+  const closeUploadModalBtn = document.getElementById('close-upload-modal');
+  const uploadForm = document.getElementById('upload-form');
+  const uploadBtn = document.getElementById('upload-btn');
+  const uploadProgress = document.getElementById('upload-progress');
+  const uploadResult = document.getElementById('upload-result');
+  const uploadErrorMsg = document.getElementById('upload-error-msg');
+
   let currentNumbers = [];
 
   const getHeaders = () => ({
@@ -236,6 +245,59 @@ if (document.getElementById('numbers-table-body')) {
     } catch (err) {
       modalErrorMsg.textContent = err.message;
       modalErrorMsg.style.display = 'block';
+    }
+  });
+
+  // Upload Logic
+  openUploadModalBtn.addEventListener('click', () => {
+    uploadErrorMsg.style.display = 'none';
+    uploadResult.style.display = 'none';
+    uploadProgress.style.display = 'none';
+    uploadForm.reset();
+    uploadModalOverlay.classList.add('active');
+  });
+
+  closeUploadModalBtn.addEventListener('click', () => {
+    uploadModalOverlay.classList.remove('active');
+  });
+
+  uploadForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    uploadErrorMsg.style.display = 'none';
+    uploadResult.style.display = 'none';
+    uploadProgress.style.display = 'block';
+    uploadBtn.disabled = true;
+
+    const fileInput = document.getElementById('bulkFile');
+    const file = fileInput.files[0];
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+      const res = await fetch(`${API_BASE}/upload-blacklist`, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${token}` },
+        body: formData
+      });
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Failed to upload');
+
+      uploadProgress.style.display = 'none';
+      uploadResult.innerHTML = `
+        <strong>Upload Complete!</strong><br/>
+        Total rows: ${data.total}<br/>
+        Successfully added/updated: ${data.successCount}<br/>
+        Failed: ${data.failedCount}
+      `;
+      uploadResult.style.display = 'block';
+      loadNumbers();
+    } catch (err) {
+      uploadProgress.style.display = 'none';
+      uploadErrorMsg.textContent = err.message;
+      uploadErrorMsg.style.display = 'block';
+    } finally {
+      uploadBtn.disabled = false;
     }
   });
 
